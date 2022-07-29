@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  padding: 0 90px;
+  padding-top: 50px;
+  padding-right: 205px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.item {
+  padding: 0 25px;
+  font-size: 12px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #fff;
+  position: relative;
+  top: 12px;
+  left: -20px;
+}
+
+img.person-image {
+  width: 560px;
+}
+
+section.first-container {
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.person-details > h3 {
+  color: #d1232f;
+}
+.person-details > h1 {
+  font-size: 60px;
+}
+.person-details > p {
+  color: #c8c6c6;
+  font-size: 16px;
+  padding: 13px 0;
+}
+
+.btn {
+  background-color: #d1232f;
+  color: white;
+  padding: 12px 16px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+}
+
+.targets {
+  background-color: #181818;
+}
+
+.card {
+  background-color: #1e1e1e;
+  padding: 59px 27px;
+  width: 210px;
+}
+
+.year-detail-card {
+  background-color: #1e1e1e;
+  padding: 39px 20px;
+  width: 210px;
+}
+.card > h2,
+.card > p {
+  color: #ffffff;
+}
+.card > h2 {
+  font-size: 21px;
+  margin: 15px 0px;
+}
+.card > p {
+  font-size: 15px;
+  margin: 15px 0px;
+}
+img[alt="icons"] {
+  width: 40px;
+}
+.card:hover {
+  background-color: #c91b28;
+}
+.card:hover span.knowmore {
+  color: #fff;
+  filter: invert(1);
+  filter: brightness(0) invert(1);
+}
+.card:hover .right-arrow {
+  filter: invert(1);
+  filter: brightness(0) invert(1);
+}
+.card:hover img[alt="icons"] {
+  width: 40px;
+  filter: invert(1);
+  filter: brightness(0) invert(1);
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  position: relative;
+  left: -390px;
+}
+
+.right-arrow {
+  width: 12px;
+}
+
+span.knowmore {
+  color: #c91b28;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.bgc-graphic {
+  width: 50%;
+  background-color: #181818;
+}
+
+.targets {
+  background-color: #181818;
+  display: flex;
+}
+
+.target {
+  padding: 100px 0;
+  background-color: #000000;
+  width: 50%;
+}
+
+.card h1 {
+  text-align: center;
+  font-size: 70px;
+  color: #c91b28;
+  font-weight: 900;
+}
+
+.years {
+  font-size: 26px !important;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.year-card:first-child {
+  background-color: transparent;
+}
+
+.years-container {
+  left: -379px;
+}
+
+.year-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.year-detail-card h2 {
+  color: #c91b28;
+  text-align: center;
+  font-size: 36px;
+}
+.year-detail-card p {
+  text-align: center;
+  font-size: 14px;
+  margin: 9px 0;
+}
+.featured-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 220px;
+}
+
+.feature-heading h2 {
+  font-weight: 900;
+  margin: 8px 0;
+}
+.feature-heading p {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #b5b5b5;
+}
+
+.featured-project {
+  background-color: #000000;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+img[alt="icon-card"] {
+  width: 425px;
+  background-color: #1e1e1e;
+  padding: 42px 25px;
+}
+
+.featured-card > h3 {
+  margin: 10px 0px;
+}
+
+section.work-together {
+  padding: 0px 220px;
+  justify-content: space-between;
+  display: flex;
+  background-color: #000000;
+}
+
+.work-together-inner {
+  background-color: #1e1e1e;
+  padding: 80px 41px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.heading > h1 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.heading > p {
+  font-size: 13px;
+}
+
+.contact-btn {
+  margin-left: 179px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+.bottom > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 36px 0;
+}
+.bottom > ul > li {
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+img[alt="social-icons"] {
+  width: 20px;
+  padding: 0 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 220px;
+  align-items: center;
+}
