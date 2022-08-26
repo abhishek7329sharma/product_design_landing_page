@@ -282,3 +282,133 @@ footer {
   padding: 17px 220px;
   align-items: center;
 }
+.handburger {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .featured-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 68px;
+  }
+
+  img[alt="icon-card"] {
+    width: 291px;
+    background-color: #1e1e1e;
+    padding: 42px 25px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 0 90px;
+    padding-top: 50px;
+    padding-right: 40px;
+  }
+  section.first-container {
+    display: flex;
+    align-items: center;
+    padding: 57px 80px;
+    flex-direction: column;
+    gap: 46px;
+  }
+  .person-details {
+    text-align: center;
+  }
+  .target {
+    padding: 70px 40px;
+    background-color: #000000;
+    width: 100%;
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    position: relative;
+    left: 0;
+  }
+  section.work-together {
+    padding: 0px 34px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #000000;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 41px;
+    align-items: center;
+  }
+  .featured-project {
+    background-color: #000000;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 604px) {
+  .items {
+    display: none;
+  }
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    position: relative;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .featured-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 68px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bgc-graphic {
+    display: none;
+  }
+
+  section.work-together {
+    padding: 0px 22px;
+    justify-content: space-between;
+    display: flex;
+    background-color: #000000;
+  }
+
+  .work-together-inner {
+    background-color: #1e1e1e;
+    padding: 80px 41px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 26px;
+  }
+
+  .contact-btn {
+    margin-left: 0;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 41px;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .handburger {
+    display: inline-flex;
+    fill: white;
+  }
+}
